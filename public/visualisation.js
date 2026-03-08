@@ -243,6 +243,7 @@ function showDistribution(d) {
     .attr("height", height);
 
   const g = svg.append("g")
+    .style("font-family", "Georgia")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
   const x = d3.scaleBand()

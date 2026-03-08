@@ -205,3 +205,46 @@ body{
 .button-submit:active {
   transform: scale(0.97);
 }
+
+.popup {
+  max-width: 340px;
+  margin: 40px auto;
+  padding: 22px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit-rating {
+  margin-top: 6px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 7px;
+
+  background: #da3b92;
+  color: white;
+
+  font-weight: 600;
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease, transform 0.05s ease;
+}
+
+.submit-rating:hover {
+  background: #f14997;
+}
+
+.submit-rating:active {
+  transform: scale(0.97);
+}
+
