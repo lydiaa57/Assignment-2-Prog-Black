@@ -21,3 +21,20 @@ Secondly, I had not done a Hackathon before so I simply could not pass this up.
 I felt that concentrating for such an extended period of time and fully immersing myself in a project would force me to become comfortable with p5 in order to produce something for the judges.
 It did, because I had never done any before that weekend and I felt like I had had a strong start to my p5 journey.
 
+## Entry 2 - My Open Source Project
+**Date:** 20 March 2026
+
+### Hackathon
+I did the hackathon with three other friends: two specialised in react, and one in d3.
+Together we decided to build a scheduler. 
+What made this one unique was that it would assign slots of time for tasks based on how productive the user was at that hour. 
+Users are able to rate productivity, thus creating a schedule unique and optimised to them and their daily habits, and this was visually represented in graphs to explain and validate assignment patterns.
+
+The scheduler has the day blocked out in one hour segements.
+So I decided to create a timer (see a folder dedicated to this) that resets automatically at the top of every hour because I often find that I concentrate better with a sense of urgency. 
+Since the hackathon had an f1 theme to its organisation, it was only fitting to have a themed timer. 
+The car image is loaded in to a canvas of fixed size and the current time and time left in the hour is used to calulate its progression along a bar, that acts as an x axis that the car travels along.
+Speed is worked out by doing distance/time so for future additions to this application, one could have the timer work for any time length as currently, I've hardcoded it to work for an hour.
+
+A difficulty I faced was not sure how to add the application it to the whole site since Ive never done any react before.
+But the fact that my teammates all focused on different things made it possible for them to help put it all together. 
