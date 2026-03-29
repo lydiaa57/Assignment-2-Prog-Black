@@ -38,3 +38,5 @@ Speed is worked out by doing distance/time so for future additions to this appli
 
 A difficulty I faced was not sure how to add the application it to the whole site since Ive never done any react before.
 But the fact that my teammates all focused on different things made it possible for them to help put it all together. 
+
+
