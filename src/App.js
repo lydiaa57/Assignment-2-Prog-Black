@@ -244,6 +244,25 @@ function P5Timer(){
   )
 }
 
+function P5SchedulerTitle(){
+  const iframeRef = useRef(null);
+  function resize(){
+    const iframe = iframeRef.current;
+    iframe.style.height = "150px";
+  }
+  return(
+    <iframe
+    ref={iframeRef}
+    src="/extra_p5_code/scheduler-title/index.html"
+    width="100%"
+    onLoad={resize}
+    style={{border:"none"}}
+    sandbox="allow-scripts allow-same-origin"
+    title="Scheduler"
+    ></iframe>
+  )
+}
+
 
 function App() {
   const [grid, setGrid] = useState(createGrid());
@@ -272,12 +291,7 @@ function App() {
   };
   return (
     <div className="App">
-      <h1
-        style={{
-        color: "white",
-        textShadow: "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black"
-  }}
-      >Task Scheduler</h1>
+      <P5SchedulerTitle />
       <Toaster richColors position="top-right"/>
       <div className="scheduler">
         <div className="Col times">
