@@ -291,16 +291,7 @@ function App() {
   };
   return (
     <div className="App">
-<<<<<<< HEAD
       <P5SchedulerTitle />
-=======
-      <h1
-        style={{
-        color: "white",
-        textShadow: "-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black"
-  }}
-      >Task Scheduler</h1>
->>>>>>> 9a5fbeba701670b3bbc7572c929ab8cf588875c7
       <Toaster richColors position="top-right"/>
       <div className="scheduler">
         <div className="Col times">
