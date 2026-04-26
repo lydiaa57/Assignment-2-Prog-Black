@@ -49,3 +49,16 @@ h1 {
     fill: #000;
     pointer-events: none;
 }
+
+#eyes-container {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eyes-container canvas {
+    display: block;
+}
