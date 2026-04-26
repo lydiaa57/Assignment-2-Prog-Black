@@ -23,6 +23,11 @@ Secondly, I had not done a Hackathon before so I simply could not pass this up.
 I felt that concentrating for such an extended period of time and fully immersing myself in a project would force me to become comfortable with p5 in order to produce something for the judges.
 It did, because I had never done any before that weekend and I felt like I had had a strong start to my p5 journey.
 
+(Try find me in the images below!)
+
+![Image 1](https://github.com/lydiaa57/Assignment-2-Prog-Black/blob/main/hackathonImg1.JPEG?raw=true)
+![Image 1](https://github.com/lydiaa57/Assignment-2-Prog-Black/blob/main/hackathonImg2.JPEG?raw=true)
+
 ## Entry 2 - My Open Source Project
 **Date:** 20 March 2026
 
