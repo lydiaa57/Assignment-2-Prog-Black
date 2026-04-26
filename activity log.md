@@ -65,4 +65,4 @@ The main idea of behind the generated background works is that a radial gradient
 
 Integrating createRadialGradient() and addColorStop() was easier when I went through the MDN web documentation which explained it all throughly. The tutorial did use Object Oriented Programming for this as it uses a circle class but this was easy to follow since I had done this at alevel, but it would have made it harder for a beginner to this approach.
 
-I then just addded the background in, and made minor adjustments for cleanliness to the site such as centering the heatmap and having the timer and heapmap bakgrounds seamlessly connect because there was an awkward gap before.
+I then just addded the background in and had it so that the colours are randomly generated everytime the site reloads, creating a unique experience every visit. Also, I made minor adjustments for cleanliness to the site such as centering the heatmap and having the timer and heapmap bakgrounds seamlessly connect because there was an awkward gap before.
