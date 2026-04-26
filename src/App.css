@@ -44,6 +44,10 @@ body{
   background: url("../public/p5images/sketch3.png") center center / cover no-repeat fixed;
 }
 
+iframe {
+  display: block;
+}
+
 .scheduler {
   margin: 40px auto;
   width: 800px;

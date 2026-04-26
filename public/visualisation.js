@@ -1,4 +1,32 @@
 
+function randomInRange(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function buildRandomBestHoursGradient() {
+  const hueA = randomInRange(0, 359);
+  const hueB = (hueA + randomInRange(70, 140)) % 360;
+  const hueC = (hueA + randomInRange(180, 260)) % 360;
+
+  const satA = randomInRange(70, 88);
+  const satB = randomInRange(65, 86);
+  const satC = randomInRange(62, 84);
+
+  const lightA = randomInRange(78, 86);
+  const lightB = randomInRange(72, 82);
+  const lightC = randomInRange(76, 88);
+
+  return `linear-gradient(120deg, hsl(${hueA}, ${satA}%, ${lightA}%), hsl(${hueB}, ${satB}%, ${lightB}%), hsl(${hueC}, ${satC}%, ${lightC}%))`;
+}
+
+const bestHoursSection = document.getElementById('best-hours-section');
+if (bestHoursSection) {
+  bestHoursSection.style.background = `
+    linear-gradient(145deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.2)),
+    ${buildRandomBestHoursGradient()}
+  `;
+}
+
 // Making margins for axes and titles outisde the SVG elements
 const width = 900;
 const height = 320;

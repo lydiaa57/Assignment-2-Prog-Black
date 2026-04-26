@@ -52,7 +52,7 @@ export const createTimerSketch = ({
     };
 
     p.draw = () => {
-      p.background('#f4f6fb');
+      p.background('#f7f7f7');
 
       const now = new Date();
       const minutes = now.getMinutes();

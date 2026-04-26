@@ -40,7 +40,7 @@ function draw() {
   rect(0, stripeTop, width, stripeHeight);
 
   stroke(123, 119, 112);
-  strokeWeight(1.2);
+  strokeWeight(1.7);
 
   translate(cx, 120); 
   for (let i = 0; i < points.length; i++) {
