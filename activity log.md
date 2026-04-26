@@ -9,8 +9,10 @@ My aim is to learn how to use p5 to build visual and interactive web application
 Honestly, I was drawn to pretty graphics because I love seeing images develop and I think it is more fun to build upon them. 
 Having a focus that is entertaining seems like it will make coding during my Easter break more enjoyable which is always the goal.
 
-To begin, I researched what p5.js is commonly used for and went through the p5js.org site. 
+To begin, I researched what p5.js is commonly used for and went through the p5js.org site. I spent a week looking through the example codes, playing around with them and changing variables.
+This helped me see the wide variety of what I could do and familairise myself with p5 before the hackathon.
 
+(Later: 26/04, I integrated the googly eyes that are part of the example code to the website as this seemed like a lighthearted addition for the users to be able to interact with, and almost have the eyes watching them, forcing producitivity. I added eyelashes and updated values like scaling, this example I found particularly cool as I enjoyed the trig aspect, I am finding code that utilises maths to be my favourite).
 
 **Hackathon**
 The hackathon is the open source project that I want to do. 
