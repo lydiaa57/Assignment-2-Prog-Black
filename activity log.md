@@ -54,3 +54,15 @@ At first, I was using random colours but this was creating unpleasant images lac
 Next, I thought it would be fun to try out some typography to make an interesting title. The circular motion is created by using trigonometry to conver polar coordiantions (used since the angle varies) to cartesion ones. This is added to the original points to get an offset. Harmonic motion is used to get smooth and continuous motion, and lines are used to follow this motion. I thought this was all really cool because I enjoyed understanding the mathematical aspect and seeing it tie back to alevel physics was such a nostalgic moment.
 
 I found that working on these smaller features and fine tuning them before adding them to my main one so much fun. Next, I think that using p5 an API to create something that p5 doesn't handle itself (it does for basic shapes and colours) to add a more complex feature.
+
+## Entry 4 - Using an API
+**Date:** 26 April 2026
+
+### Gradient Background
+I found a [youtube tutorial on gradient backgrounds](https://www.youtube.com/watch?v=Mdt81-7-U18&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=91). Because there is no built in smooth gradient function to p5, I realised that I would have to access the underlying HTML5 canvas API which is the drawing layer that P5 is built upon, so use the lower level set of tools provided.
+
+The main idea of behind the generated background works is that a radial gradients are created and transparency is variable, so they all blend together seamlessly. I used CanvasRendeeringConext2D and the p5 system variable called drawingConexext (which I first encountered on p5.org and was now used as a template) which provides direct access to this sketch canvas, so I accessed using this.
+
+Integrating createRadialGradient() and addColorStop() was easier when I went through the MDN web documentation which explained it all throughly. The tutorial did use Object Oriented Programming for this as it uses a circle class but this was easy to follow since I had done this at alevel, but it would have made it harder for a beginner to this approach.
+
+I then just addded the background in, and made minor adjustments for cleanliness to the site such as centering the heatmap and having the timer and heapmap bakgrounds seamlessly connect because there was an awkward gap before.
