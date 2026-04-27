@@ -27,7 +27,7 @@ For all above and any mini projects I recommend the use of the [p5 web editor](h
 
 For those who prefer a video tutorials, there are two YouTube channels that I tried and liked.
 Personally, I prefer this kind of tutorial as it forces you to code along with the instructor and it feels more immersive since its a real person leading it rather than just text and images on a screen.
-1. [Parr Vira](https://www.youtube.com/watch?v=eZHclqx2eJY&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=2) has a nice set of coding tutorials. I liked the pacing and the vast variety of different things that could be made since there are over 154 videos. I found it easy to follow and everything was explained well so I did not have to consult other sources outside of this one.
+1. [Parr Vira](https://www.youtube.com/watch?v=eZHclqx2eJY&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=2) has a nice set of coding tutorials. I liked the pacing and the vast variety of different things that could be made since there are 154 videos. I found it easy to follow and everything was explained well so I did not have to consult other sources outside of this one.
 2. [Steve's Makerspace](https://www.youtube.com/watch?v=ZiVWNAqLDwU&list=PLnJOmsprq3bE0QLbe7wZ8yb1-Dt0FBcP5&index=1&t=2s) has a cool playlist for how code generative art which looks really interesting and I like how he explains concepts used.
 Ultimately, there are many different channels for learning p5 available for free which means that learners will have the instruction for exactly what they want to make and a teacher whose style they like.
 

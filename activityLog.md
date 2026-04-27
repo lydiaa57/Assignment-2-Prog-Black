@@ -73,3 +73,11 @@ The main idea of behind the generated background works is that a radial gradient
 Integrating createRadialGradient() and addColorStop() was easier when I went through the MDN web documentation which explained it all thoroughly. The tutorial did use Object Oriented Programming for this as it uses a circle class but this was easy to follow since I had done this at A-level, but it would have made it harder for a beginner to this approach.
 
 I then just added the background in and had it so that the colours are randomly generated every-time the site reloads, creating a unique experience every visit. Also, I made minor adjustments for cleanliness to the site such as centering the heatmap and having the timer and heatmap backgrounds seamlessly connect because there was an awkward gap before.
+
+## Entry 4 - Conclusion to my p5 journey
+**Date:** 27 April 2026
+
+I have spent the past 2 days writing up the guide for learners (and consequently cutting it down to the specified word count). Hence, I have gotten confident with markdown as I can now navigate making titles, adding in images, links, bullet points, numbered lists which seems like a useful skill to have down that I will surely build upon over time too.
+
+Looking through the different applications of p5 makes me wish that I had used p5 to add in audio- perhaps some background music or sound effect every time that a task is added in/ deleted but as exam season approaches, it is sensible to prioritise revision, bringing this journey to a bittersweet end.
+
