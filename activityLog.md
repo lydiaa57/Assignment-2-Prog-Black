@@ -23,33 +23,31 @@ Concentrating for such an extended period of time and fully immersing myself in 
 
 ### Hackathon
 I did the hackathon with three other friends: two specialised in react, and one in d3 so that we could pool our skill sets together in order to create a great project and have an equal workload. Together, we decided to build a scheduler.  What made this one unique was that it would assign slots of time for tasks based on how productive the user usually was at that hour. 
-Users are able to rate productivity, thus creating a schedule unique and optimised to their daily habits. This was visually represented in graphs to explain and validate assignment patterns.
+Users are able to rate productivity, thus creating a schedule unique and optimised to their daily habits- visually represented in graphs to validate assignment patterns.
 
-The scheduler has the day blocked out in one hour segments. Consequently, I decided to create a timer that resets automatically at the top of every hour because I often find that I concentrate better with a sense of urgency. Since the hackathon had an f1 theme to its organisation, so was the timer. The race-car image is loaded in to a canvas of fixed size and the current time and time left in the hour is used to calculate its progression along a bar, that acts as an x axis that the car travels along.
-Speed is worked out by doing distance/time so for future additions to this application, one could have the timer work for any time length as currently, I've hardcoded it to work for an hour. 
+The scheduler has the day divided into hour long segments. Consequently, I decided to create a timer that resets automatically at the top of every hour because I often find that I concentrate better with a sense of urgency. Since the hackathon had an f1 theme to its organisation, so was the timer. The race-car image is loaded in to a canvas of fixed size and the current time and time left in the hour is used to calculate its progression along a bar, that acts as an x axis that the car travels along.
+Speed is worked out by doing distance/time so for future additions to this application, one could've the timer work for any time length as currently, I've hardcoded it time an hour. 
 
-A difficulty I faced was not sure how to add the application it to the whole site since I've never done any react before. But the fact that my teammates all focused on different things made it possible for them to help integrate it all together, mirroring real-world development environments.
+A difficulty I faced was not sure how to add the application it to the whole site since I've never done any react before. But the fact that my teammates all focused on different things made it possible for them to help integrate it all together, mirroring real-world development environments. Additionally, I wish I had done more p5 as prep in order to have contributed more during th hackathon but experise was still limited, but I shall prepare further next time.
 
 ![Image 1](https://github.com/lydiaa57/Assignment-2-Prog-Black/blob/main/hackathonImg1.JPEG?raw=true)
 ![Image 2](https://github.com/lydiaa57/Assignment-2-Prog-Black/blob/main/hackathonImg2.JPEG?raw=true)
 
-GitHub was essential for tracking progress and managing versions of our work, especially as we were all focusing on different features. I became more proficient with its use, especially after having the frustrating problem of branching errors. GitHub will prove even more useful as the project develops, because regular commits will allow me to document incremental changes and critically reflect on development over time as well as track history which will be useful if I find errors.
+GitHub was essential for tracking progress and managing versions of our work, especially as we were all focusing on different features. I became more proficient with its use, especially after having the frustrating problem of branching and merge errors. GitHub will prove even more useful as the project develops, because regular commits will allow me to document incremental changes and critically reflect on development over time as well as track history which will be useful if I find errors.
 
 ## Entry 3 - Adding to my project
 **Date:** 08 April 2026
 
 ### Cool Viuals
-I have been adding cool features to my project to make it more interesting visually.
-
 First, I decided to make a background.
 
 ![wavy background](public/p5images/sketch3.png)
 
-The program to generate it works by creating multiple layers of wavy lines, assigning random vertical positions and rotational values to orient the pattern. A while loop draws stripes until the end of the canvas is reached in order to cover it. 
+The program to generate it works by creating multiple layers of wavy lines, assigning random vertical positions and rotational values to orient the pattern. A while loop draws stripes until the end of the canvas is reached, covering it. 
 
 Initially, I was using random colours but this was creating unpleasant images lacking visual cohesion. This highlighted the importance of controlling design choices. I improved this by using a CSV file containing colour palettes that meant that complimentary colours were picked. Therefore, once I started generating images to use as a background, it took much less time to find one I liked.
 
-Next, I thought it would be fun to try out some typography to make an interesting title. The circular motion is created by using trigonometry to convert polar coordinates (used since the angle varies) to cartesian ones. This is added to the original points to get an offset. Harmonic motion is used to get smooth and continuous motion, and lines are used to follow this motion. I thought this was all really fascinating because I enjoyed that I understood the mathematical foundations as it tied back to A-level physics- a nostalgic moment.
+Next, I chose to try out typography to make an interesting title. Circular motion is created by using trigonometry to convert polar coordinates (used since the angle varies) to cartesian ones. This is added to the original points to get an offset. Harmonic motion is used to get smooth and continuous motion, and lines are used to follow this motion. I thought this was all really fascinating because I enjoyed that I understood the mathematical foundations as it tied back to A-level physics- a nostalgic moment.
 
 I found that working on these smaller features and fine tuning them before adding them to my main one so much fun. Next, I think that using p5 an API to create something that p5 doesn't handle itself to add a more complex feature.
 
@@ -72,6 +70,6 @@ Then, I added the background in, and had it so that the colours are randomly gen
 
 I've spent the past 2 days writing up the guide for learners (then cutting it down to the specified word count). Hence, I have gotten confident with markdown as I can now navigate making titles, adding in images, videos, links, bullet points, numbered lists which is a useful skill to have down that I will surely build upon over time too.
 
-Looking through the different applications of p5 makes me wish that I had used p5 to add in audio- perhaps some background music or sound effect every time that a task is added in/ deleted, but as exam season approaches, it is sensible to prioritise revision, bringing this journey to an end.
+Going through the different applications of p5 makes me wish that I had used p5 to add in audio- perhaps background music or sound effect every time a task is added in/ deleted, but as exam season approaches, it is sensible to prioritise revision, bringing this journey to an end.
 
-Looking back, what I should have done differently is created a rigid timetable for what it was that I wanted to achieve and carve out dedicated time to work on this coursework rather than doing it whenever a free block opened up. This would've been more efficient since I would have saved time not having to decide what to do and also would've been able to do more.
+Looking back, what I should have done differently is created a rigid timetable for what it was that I wanted to achieve and carve out dedicated time to work on this coursework rather than doing it whenever a free block opened up. This would've been more efficient since I would have saved time not having to decide what to do and also would've been able to do more. But, overall, I am very happy that I chose this library as I found it both entertaining and informative since it is unlike any coding I've done before.
