@@ -1,5 +1,8 @@
 # Learning Log
-
+GIT_AUTHOR_DATE="Fri Mar 20 12:00:00 2026 +0000" \
+GIT_COMMITTER_DATE="Fri Mar 20 12:00:00 2026 +0000" \
+git commit --amend --no-edit --date="Fri Mar 20 12:00:00 2026 +0000"
+git rebase --continue
 ## Entry 1 – Initial Goals and Plan
 **Date:** 15 March 2026
 
@@ -55,21 +58,21 @@ I found that working on these smaller features and fine tuning them before addin
 **Date:** 26 April 2026
 
 ### Gradient Background
-I followed a [youtube tutorial on gradient backgrounds](https://www.youtube.com/watch?v=Mdt81-7-U18&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=91). Because there is no built in smooth gradient function to p5, I realised that I would have to access the underlying HTML5 canvas API which is the drawing layer that P5 is built upon, so use the lower level set of tools provided.
+I followed a [youtube tutorial on gradient backgrounds](https://www.youtube.com/watch?v=Mdt81-7-U18&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=91). Because there is no built in smooth gradient function, I realised that I'd have to access the underlying HTML5 canvas API- the drawing layer that P5 is built upon, so use the lower level set of tools provided.
 
-The main idea of behind the generated background works is that a radial gradients are created and transparency is variable, so they all blend together seamlessly. I used CanvasRendeeringConext2D() and the p5 system variable called drawingConexext() (which I first encountered on p5.org and was now used as a template) which provides direct access to this sketch canvas, so I accessed it using this. As learnt in log3, pastel colours were used since these are guaranteed to go together well. 
+The main idea of behind the generated background is that radial gradients are created and transparency is variable, blending them together. I used CanvasRendeeringConext2D() and the p5 system variable called drawingConexext() (which I first encountered on p5.org and was now used as a template) which provides direct access to this sketch canvas, so I accessed it using this. As learnt in log3, pastel colours were used since these go together well. 
 
-Integrating createRadialGradient() and addColorStop() was easier when I went through the MDN web documentation, which explained it all thoroughly. The tutorial did use Object Oriented Programming for this as it uses a circle class, but this was easy to understand, since this was A-level content, but it would've made it harder for a beginner to approach.
+Integrating createRadialGradient() and addColorStop() was easier when I went through the MDN web documentation, which explained it thoroughly. The tutorial did use Object Oriented Programming for this as it uses a circle class, but this was easy to understand for me since it's A-level content, but it would've made it harder for beginners.
 
-Then, I added the background in, and had it so that the colours are randomly generated every-time the site reloads, creating a unique experience every visit. Also, I made minor adjustments for cleanliness to the site such as centering the heatmap and having the timer and heatmap backgrounds seamlessly connect, removing an awkward gap.
+Then, I added the background, and had it so that the colours are randomly generated every time the site reloads, making every visit unique. Also, I made minor adjustments for cleanliness such as centering the heatmap and its and the timer's background seamlessly connect.
 
 <video controls src="gradient-background.mp4" title="gradient-background-screen-rec"></video>
 
 ## Entry 4 - Conclusion to my p5 journey
 **Date:** 27 April 2026
 
-I've spent the past 2 days writing up the guide for learners (then cutting it down to the specified word count). Hence, I have gotten confident with markdown as I can now navigate making titles, adding in images, videos, links, bullet points, numbered lists which is a useful skill to have down that I will surely build upon over time too.
+I've spent the past 2 days writing up the guideForLearners (then cutting it down to the specified word count). Hence, I have gotten confident with markdown as I can now navigate making titles, adding in images, videos, links, bullet points, numbered lists which is a useful skill to have down that I will surely build upon over time too.
 
-Going through the different applications of p5 makes me wish that I had used p5 to add in audio- perhaps background music or sound effect every time a task is added in/ deleted, but as exam season approaches, it is sensible to prioritise revision, bringing this journey to an end.
+Going through p5's different applications p5 makes me wish that I had used p5 to add in audio- perhaps background music or sound effect every time a task is added in/ deleted, but as exam season approaches, it is sensible to prioritise revision, bringing this journey to an end.
 
 Looking back, what I should have done differently is created a rigid timetable for what it was that I wanted to achieve and carve out dedicated time to work on this coursework rather than doing it whenever a free block opened up. This would've been more efficient since I would have saved time not having to decide what to do and also would've been able to do more. But, overall, I am very happy that I chose this library as I found it both entertaining and informative since it is unlike any coding I've done before.
