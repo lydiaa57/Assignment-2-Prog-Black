@@ -1,8 +1,5 @@
 # Learning Log
-GIT_AUTHOR_DATE="Fri Mar 20 12:00:00 2026 +0000" \
-GIT_COMMITTER_DATE="Fri Mar 20 12:00:00 2026 +0000" \
-git commit --amend --no-edit --date="Fri Mar 20 12:00:00 2026 +0000"
-git rebase --continue
+
 ## Entry 1 – Initial Goals and Plan
 **Date:** 15 March 2026
 
